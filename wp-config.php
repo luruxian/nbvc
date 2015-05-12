@@ -2,75 +2,88 @@
 /**
  * The base configurations of the WordPress.
  *
- * This file has the following configurations: MySQL settings, Table Prefix,
- * Secret Keys, and ABSPATH. You can find more information by visiting
- * {@link http://codex.wordpress.org/Editing_wp-config.php Editing wp-config.php}
- * Codex page. You can get the MySQL settings from your web host.
+ * このファイルは、MySQL、テーブル接頭辞、秘密鍵、言語、ABSPATH の設定を含みます。
+ * より詳しい情報は {@link http://wpdocs.sourceforge.jp/wp-config.php_%E3%81%AE%E7%B7%A8%E9%9B%86 
+ * wp-config.php の編集} を参照してください。MySQL の設定情報はホスティング先より入手できます。
  *
- * This file is used by the wp-config.php creation script during the
- * installation. You don't have to use the web site, you can just copy this file
- * to "wp-config.php" and fill in the values.
+ * このファイルはインストール時に wp-config.php 作成ウィザードが利用します。
+ * ウィザードを介さず、このファイルを "wp-config.php" という名前でコピーして直接編集し値を
+ * 入力してもかまいません。
  *
  * @package WordPress
  */
 
-// ** MySQL settings - You can get this info from your web host ** //
-/** The name of the database for WordPress */
-define('DB_NAME', 'kin');
+// 注意: 
+// Windows の "メモ帳" でこのファイルを編集しないでください !
+// 問題なく使えるテキストエディタ
+// (http://wpdocs.sourceforge.jp/Codex:%E8%AB%87%E8%A9%B1%E5%AE%A4 参照)
+// を使用し、必ず UTF-8 の BOM なし (UTF-8N) で保存してください。
 
-/** MySQL database username */
+// ** MySQL 設定 - こちらの情報はホスティング先から入手してください。 ** //
+/** WordPress のためのデータベース名 */
+define('DB_NAME', 'nbvc');
+
+/** MySQL データベースのユーザー名 */
 define('DB_USER', 'root');
 
-/** MySQL database password */
+/** MySQL データベースのパスワード */
 define('DB_PASSWORD', 'root');
 
-/** MySQL hostname */
+/** MySQL のホスト名 */
 define('DB_HOST', 'localhost');
 
-/** Database Charset to use in creating database tables. */
+/** データベースのテーブルを作成する際のデータベースのキャラクターセット */
 define('DB_CHARSET', 'utf8');
 
-/** The Database Collate type. Don't change this if in doubt. */
+/** データベースの照合順序 (ほとんどの場合変更する必要はありません) */
 define('DB_COLLATE', '');
 
 /**#@+
- * Authentication Unique Keys and Salts.
+ * 認証用ユニークキー
  *
- * Change these to different unique phrases!
- * You can generate these using the {@link https://api.wordpress.org/secret-key/1.1/salt/ WordPress.org secret-key service}
- * You can change these at any point in time to invalidate all existing cookies. This will force all users to have to log in again.
+ * それぞれを異なるユニーク (一意) な文字列に変更してください。
+ * {@link https://api.wordpress.org/secret-key/1.1/salt/ WordPress.org の秘密鍵サービス} で自動生成することもできます。
+ * 後でいつでも変更して、既存のすべての cookie を無効にできます。これにより、すべてのユーザーを強制的に再ログインさせることになります。
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'fZ1SaA7HJU5IML**LsuLEdw{ ^PquYAbL~Q$Asz/-.AEeElFa+=qMm.]>%jhceyS');
-define('SECURE_AUTH_KEY',  'dCC)u3&tK0,eW<%+PFu4B$F8{2~Uve9;1XLssO&|Ye8/ +&|H@}G.PCh_|[svj_R');
-define('LOGGED_IN_KEY',    '}V=+!*OlO:_h|aD~WfFg4:bdrM((j-h-~DjZm/0EnAr_l9`+%+N!)d 6*]<=(;[M');
-define('NONCE_KEY',        'A+a>kX<8n1/-T0-Zm5A}4dypiwLn^-o_=WSS.I4b$tTlI{YM.s1S~toXyxxgP!ug');
-define('AUTH_SALT',        'mhPuoN+[X>I{}<[$eH^ZqWJ&*|{vu4pLBF<$OVV,)-8Rf?WIXydS817V+MBggBX-');
-define('SECURE_AUTH_SALT', '-B^Sqx2,``1%`k&UK^E7=s24N}L)Kr!kPt2?#a=x3Ec.g]pXIU/N%N7jeGcDoOY5');
-define('LOGGED_IN_SALT',   'te=WIx#d3gVy|4z?&+28$HuyVjA;jBC=t%?P6hyEMimeR&L.U@S1w<tHY%I/PW9l');
-define('NONCE_SALT',       'JCrxP>BQVRPMDI0|.T/[hVMY+neH$zzF^.w~r8zT}%]{`IrVeE4x:q|=`z;Ruim~');
+define('AUTH_KEY',         'put your unique phrase here');
+define('SECURE_AUTH_KEY',  'put your unique phrase here');
+define('LOGGED_IN_KEY',    'put your unique phrase here');
+define('NONCE_KEY',        'put your unique phrase here');
+define('AUTH_SALT',        'put your unique phrase here');
+define('SECURE_AUTH_SALT', 'put your unique phrase here');
+define('LOGGED_IN_SALT',   'put your unique phrase here');
+define('NONCE_SALT',       'put your unique phrase here');
 
 /**#@-*/
 
 /**
- * WordPress Database Table prefix.
+ * WordPress データベーステーブルの接頭辞
  *
- * You can have multiple installations in one database if you give each a unique
- * prefix. Only numbers, letters, and underscores please!
+ * それぞれにユニーク (一意) な接頭辞を与えることで一つのデータベースに複数の WordPress を
+ * インストールすることができます。半角英数字と下線のみを使用してください。
  */
-$table_prefix  = 'wp_';
+$table_prefix  = 'nbvc_';
 
 /**
- * For developers: WordPress debugging mode.
+ * ローカル言語 - このパッケージでは初期値として 'ja' (日本語 UTF-8) が設定されています。
  *
- * Change this to true to enable the display of notices during development.
- * It is strongly recommended that plugin and theme developers use WP_DEBUG
- * in their development environments.
+ * WordPress のローカル言語を設定します。設定した言語に対応する MO ファイルが
+ * wp-content/languages にインストールされている必要があります。例えば de_DE.mo を
+ * wp-content/languages にインストールし WPLANG を 'de_DE' に設定することでドイツ語がサポートされます。
+ */
+define('WPLANG', 'ja');
+
+/**
+ * 開発者へ: WordPress デバッグモード
+ *
+ * この値を true にすると、開発中に注意 (notice) を表示します。
+ * テーマおよびプラグインの開発者には、その開発環境においてこの WP_DEBUG を使用することを強く推奨します。
  */
 define('WP_DEBUG', false);
 
-/* That's all, stop editing! Happy blogging. */
+/* 編集が必要なのはここまでです ! WordPress でブログをお楽しみください。 */
 
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
