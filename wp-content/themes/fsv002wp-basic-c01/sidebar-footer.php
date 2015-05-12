@@ -70,36 +70,18 @@
 
 				<aside class="widget widget_recent_entries">
 
-					<h3 class="widget-title"><?php _e( 'Recent Posts', 'fsv002wpbasic' ); ?></h3>
+					<h3 class="widget-title">弊社QRコード </h3>
 
-					<?php
-
-					$args = array(
-						'ignore_sticky_posts' => true, 
-						'posts_per_page' => 5
-					);
-
-					$the_query = new WP_Query( $args );
-
-					if ( $the_query->have_posts() ) : ?>
+					
 
 					<ul>
+						<br>
 
-						<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-
-						<li><span class="post-date"><?php echo get_the_date(); ?></span><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
-
-						<?php endwhile; ?>
+					<img src="<?php echo get_template_directory_uri(); ?>/images/url.png" width="108" height="108" alt="Navigation Menu">
 
 					</ul>
 
-					<?php else: ?>
-
-					<p><?php _e( 'There are currently no posts.', 'fsv002wpbasic' ); ?></p>
-
-					<?php endif;
-
-					wp_reset_postdata(); ?>
+					
 
 				</aside>
 

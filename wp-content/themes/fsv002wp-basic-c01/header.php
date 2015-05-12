@@ -79,13 +79,14 @@
 				if ( ( $opLinkMap ) || ( $opLinkCont ) ) : ?>
 
 					<p class="<?php echo $hw_linkclass; ?>">
-					<?php if ( $opLinkMap ) : ?><a href="<?php echo $opLinkMap; ?>"><span><?php _e( 'Sitemap', 'fsv002wpbasic' ); ?></span></a><?php endif; ?>
-					<?php if ( $opLinkCont ) : ?><a href="<?php echo $opLinkCont; ?>"><span><?php _e( 'Contact', 'fsv002wpbasic' ); ?></span></a><?php endif; ?>
+
+
+					<?php if ( $opLinkCont ) : ?><a href="mailto:hanlin_trading@hotmail.com"><span><?php _e( 'Contact', 'fsv002wpbasic' ); ?></span></a><?php endif; ?>
 					</p>
 				<?php endif;
 
-				if ( $opHeadText ) : ?><p class="hw_text"><?php echo $opHeadText; ?></p><?php endif;
-				if ( $opHeadLargeText ) : ?><p class="hw_text_large"><?php echo $opHeadLargeText; ?></p><?php endif; ?>
+				if ( $opHeadText ) : ?><p class="hw_text"><?php echo "連絡先" ?></p><?php endif;
+				if ( $opHeadLargeText ) : ?><p class="hw_text_large"><?php echo "080-4292-1782"; ?></p><?php endif; ?>
 
 			</div><!-- #header-widget-area -->
 

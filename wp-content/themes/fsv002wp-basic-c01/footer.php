@@ -12,14 +12,9 @@
 
 		<div class="component-inner">
 
-			<p class="footer-copy"><?php
-
-				$options = fsv002wpbasic_get_theme_options();
-				$opFootText = $options[ 'foot_text' ];
-
-				echo nl2br( $opFootText );
-
-			?></p>
+			<p class="footer-copy">
+				(C)Copyright 2014-2015 Nebula Ventures Inc.
+				</p>
 
 		</div><!-- .component-inner -->
 
