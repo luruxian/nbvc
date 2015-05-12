@@ -74,10 +74,10 @@ height: 46px;
 ul#topnav li{float:left;list-style:none;width:130px;}
 
 ul#topnav a{
-text-indent: 20px;
+/**text-indent: 20px;*/
 text-decoration: none;
 display: block;
-width: 130px;
+width: 100%;
 height: 46px;
 }
 

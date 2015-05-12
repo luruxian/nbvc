@@ -13,6 +13,14 @@
 <link rel="alternate" type="application/atom+xml" title="<?php bloginfo('name'); ?> Atom Feed" href="<?php bloginfo('atom_url'); ?>" />
 <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+<link type="text/css" rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/prmenu.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.prmenu.min.js"></script>
+<script>
+$(document).ready(function(){
+  $('#topnav').prmenu();
+});
+</script>
 <?php wp_head(); ?>
 </head>
 
@@ -28,13 +36,14 @@
 	<!-- / ヘッダー -->
 
 	<!-- トップナビゲーション -->
-	<ul id="topnav" class="nav">
+	<ul id="topnav" >
 		<li><a href="/" id="home">トップページ</a></li>
 		<li><a href="/company" id="link">会社概要</a></li>
 		<li><a href="/service" id="menu">事業内容</a></li>
 		<li><a href="/recruit" id="about">採用情報</a></li>
 		<li><a href="/contact" id="map">問い合わせ</a></li>
 	</ul>
+
 	<!-- トップナビゲーション -->   
     
 	<!-- コンテンツ -->
