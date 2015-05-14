@@ -11,14 +11,15 @@
 ?>
 
 <?php get_header(); ?>
-
 	<div id="main" class="main-content-area">
 
 		<div class="component-inner">
 
 			<div id="wrapbox" class="main-content-wrap">
 
-				<div id="primary" class="main-content-site" role="main"><?php
+				<div id="primary" class="main-content-site" role="main">
+
+					<?php
 
 					$options = fsv002wpbasic_get_theme_options();
 					$opWelcomeTitle = $options['welcome_title'];
@@ -45,7 +46,7 @@
 
 						<section class="widget widget_recent_entries">
 
-							<h2 class="widget-title"><?php _e( 'Recent Posts', 'fsv002wpbasic' ); ?></h2>
+							<h2 class="widget-title">新闻中心</h2>
 
 							<?php 
 

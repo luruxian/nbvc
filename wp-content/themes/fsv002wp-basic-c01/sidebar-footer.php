@@ -20,18 +20,25 @@
 
 				<?php else : // is_active_sidebar( 'sidebar-3' ) ?>
 
-				<aside class="widget widget_categories">
+				
+					<h3 class="widget-title">联系我们</h3>
+					<table>
+						<tr>
+							<td style="text-align:right">咨询:</td>
+							<td style="padding-left:5px">info@nbvc.co</td>
+						</tr>
+						<tr>
+							<td style="text-align:right">&nbsp;</td>
+							<td style="padding-left:5px">&nbsp;</td>
+						</tr>
+						<tr>
+							<td>商务合作:</td>
+							<td style="padding-left:5px">bd@nbvc.co</td>
+						</tr>
+					</table>	
 
-					<h3 class="widget-title"><?php _e( 'Category List', 'fsv002wpbasic' ); ?></h3>
 
-					<ul>
-
-						<?php wp_list_categories( 'orderby=name&title_li=' ); ?>
-
-					</ul>
-
-				</aside>
-
+				
 				<?php endif; // is_active_sidebar( 'sidebar-1' ) ?>
 
 			</div><!-- #footer-widget-area-1 -->
@@ -44,18 +51,13 @@
 
 				<?php else : // is_active_sidebar( 'sidebar-4' ) ?>
 
-				<aside class="widget widget_pages">
+				
+					<h3 class="widget-title">  </h3>
+					<div style="padding-left:50px">
+					<img src="<?php echo get_template_directory_uri(); ?>/images/a1.png" width="261" height="100" alt="Navigation Menu">
+					</div>
 
-					<h3 class="widget-title"><?php _e( 'Page List', 'fsv002wpbasic' ); ?></h3>
-
-					<ul>
-
-						<?php  wp_list_pages( 'title_li=' ); ?>
-
-					</ul>
-
-				</aside>
-
+				
 				<?php endif; // is_active_sidebar( 'sidebar-2' ) ?>
 
 			</div><!-- #footer-widget-area-2 -->
@@ -70,7 +72,7 @@
 
 				<aside class="widget widget_recent_entries">
 
-					<h3 class="widget-title">弊社QRコード </h3>
+					<h3 class="widget-title">星云二维码</h3>
 
 					
 

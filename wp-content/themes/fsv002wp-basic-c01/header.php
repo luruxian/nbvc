@@ -66,7 +66,9 @@
 
 				<?php else : ?>
 
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" rel="home"><?php echo esc_attr( get_bloginfo( 'name' ) ); ?></a></h1>
+				<h1 class="site-title">
+					<a style="font-size:32px;color:darkcyan;" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" rel="home"><?php echo esc_attr( get_bloginfo( 'name' ) ); ?></a>
+				</h1>
 
 				<?php endif; ?>
 
@@ -85,7 +87,7 @@
 					</p>
 				<?php endif;
 
-				if ( $opHeadText ) : ?><p class="hw_text"><?php echo "連絡先" ?></p><?php endif;
+				if ( $opHeadText ) : ?><p class="hw_text"><?php echo "联络我们" ?></p><?php endif;
 				if ( $opHeadLargeText ) : ?><p class="hw_text_large"><?php echo "080-4292-1782"; ?></p><?php endif; ?>
 
 			</div><!-- #header-widget-area -->
