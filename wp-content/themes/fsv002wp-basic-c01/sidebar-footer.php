@@ -86,7 +86,7 @@
 					<ul>
 						<br>
 
-					<img src="<?php echo get_template_directory_uri(); ?>/images/url.png" width="108" height="108" alt="Navigation Menu">
+					<img src="<?php echo get_template_directory_uri(); ?>/images/url.png" width="108" height="108" alt="星云二维码">
 
 					</ul>
 

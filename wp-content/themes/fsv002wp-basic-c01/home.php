@@ -27,12 +27,71 @@
 
 					if ( ( $opWelcomeTitle ) || ( $opWelcomeText ) ) : ?>
 
-					<div id="topmain-welcome-area" class="topmain-welcome-area">
-
-						<?php if ( $opWelcomeTitle ) : ?><h2 class="topmain-welcome-title"><?php echo $opWelcomeTitle; ?></h2><?php endif;
-						if ( $opWelcomeText ) : ?><div class="topmain-welcome-contents"><?php echo $opWelcomeText; ?></div><?php endif; ?>
+					<div id="topmain-welcome-area" class="topmain-widget-area">						
+						<div style="margin:5px;width:128px;height:130px;border: 1px solid #e7e7e7;box-shadow: 0 0 8px #dcdcdc;background-color:#ffffff;float:left">
+						<img style="padding:5px" src="<?php echo get_template_directory_uri(); ?>/images/product/p105.jpg" width="150" height="80" alt="DHC">
+						</div>
+						<div style="margin:5px;width:128px;height:130px;border: 1px solid #e7e7e7;box-shadow: 0 0 8px #dcdcdc;background-color:#ffffff;float:left">
+						<img style="padding:5px" src="<?php echo get_template_directory_uri(); ?>/images/product/p104.jpg" width="120" height="120" alt="DHC">
+						</div>
+						<div style="margin:5px;width:128px;height:130px;border: 1px solid #e7e7e7;box-shadow: 0 0 8px #dcdcdc;background-color:#ffffff;float:left">
+						<img style="padding:5px" src="<?php echo get_template_directory_uri(); ?>/images/product/p103.jpg" width="150" height="80" alt="DHC">
+						</div>
+						<div style="margin:5px;width:128px;height:130px;border: 1px solid #e7e7e7;box-shadow: 0 0 8px #dcdcdc;background-color:#ffffff;float:left">
+						<img style="padding:5px" src="<?php echo get_template_directory_uri(); ?>/images/product/p106.jpg" width="120" height="120" alt="DHC">
+						</div>
+						<div style="margin:5px;width:128px;height:130px;border: 1px solid #e7e7e7;box-shadow: 0 0 8px #dcdcdc;background-color:#ffffff;float:left">
+						<img style="padding:5px" src="<?php echo get_template_directory_uri(); ?>/images/product/p101.jpg" width="120" height="120" alt="DHC">
+						</div>
+						<div style="margin:5px;width:128px;height:130px;border: 1px solid #e7e7e7;box-shadow: 0 0 8px #dcdcdc;background-color:#ffffff;float:left">
+						<img style="padding:5px" src="<?php echo get_template_directory_uri(); ?>/images/product/p102.jpg" width="120" height="120" alt="DHC">
+						</div>
 
 					</div>
+					<div id="topmain-welcome-area" class="topmain-widget-area">						
+						<div style="margin:5px;width:128px;height:130px;border: 1px solid #e7e7e7;box-shadow: 0 0 8px #dcdcdc;background-color:#ffffff;float:left">
+						<img style="padding:5px" src="<?php echo get_template_directory_uri(); ?>/images/product/p107.jpg" width="120" height="120" alt="DHC">
+						</div>
+						<div style="margin:5px;width:128px;height:130px;border: 1px solid #e7e7e7;box-shadow: 0 0 8px #dcdcdc;background-color:#ffffff;float:left">
+						<img style="padding:5px" src="<?php echo get_template_directory_uri(); ?>/images/product/p110.jpg" width="120" height="120" alt="DHC">
+						</div>
+						<div style="margin:5px;width:128px;height:130px;border: 1px solid #e7e7e7;box-shadow: 0 0 8px #dcdcdc;background-color:#ffffff;float:left">
+						<img style="padding:5px" src="<?php echo get_template_directory_uri(); ?>/images/product/p111.jpg" width="120" height="120" alt="DHC">
+						</div>
+						<div style="margin:5px;width:128px;height:130px;border: 1px solid #e7e7e7;box-shadow: 0 0 8px #dcdcdc;background-color:#ffffff;float:left">
+						<img style="padding:5px" src="<?php echo get_template_directory_uri(); ?>/images/product/p112.jpg" width="120" height="120" alt="DHC">
+						</div>
+						<div style="margin:5px;width:128px;height:130px;border: 1px solid #e7e7e7;box-shadow: 0 0 8px #dcdcdc;background-color:#ffffff;float:left">
+						<img style="padding:5px" src="<?php echo get_template_directory_uri(); ?>/images/product/p113.jpg" width="120" height="120" alt="DHC">
+						</div>
+						<div style="margin:5px;width:128px;height:130px;border: 1px solid #e7e7e7;box-shadow: 0 0 8px #dcdcdc;background-color:#ffffff;float:left">
+						<img style="padding:5px" src="<?php echo get_template_directory_uri(); ?>/images/product/p114.jpg" width="120" height="120" alt="DHC">
+						</div>
+
+					</div>
+					<div id="topmain-welcome-area" class="topmain-widget-area">						
+						<div style="margin:5px;width:128px;height:130px;border: 1px solid #e7e7e7;box-shadow: 0 0 8px #dcdcdc;background-color:#ffffff;float:left">
+						<img style="padding:5px" src="<?php echo get_template_directory_uri(); ?>/images/product/p108.jpg" width="120" height="120" alt="DHC">
+						</div>
+						<div style="margin:5px;width:128px;height:130px;border: 1px solid #e7e7e7;box-shadow: 0 0 8px #dcdcdc;background-color:#ffffff;float:left">
+						<img style="padding:5px" src="<?php echo get_template_directory_uri(); ?>/images/product/p109.jpg" width="120" height="120" alt="DHC">
+						</div>
+						<div style="margin:5px;width:128px;height:130px;border: 1px solid #e7e7e7;box-shadow: 0 0 8px #dcdcdc;background-color:#ffffff;float:left">
+						<img style="padding:5px" src="<?php echo get_template_directory_uri(); ?>/images/product/p115.jpg" width="120" height="120" alt="DHC">
+						</div>
+						<div style="margin:5px;width:128px;height:130px;border: 1px solid #e7e7e7;box-shadow: 0 0 8px #dcdcdc;background-color:#ffffff;float:left">
+						<img style="padding:5px" src="<?php echo get_template_directory_uri(); ?>/images/product/p116.jpg" width="120" height="120" alt="DHC">
+						</div>
+						<div style="margin:5px;width:128px;height:130px;border: 1px solid #e7e7e7;box-shadow: 0 0 8px #dcdcdc;background-color:#ffffff;float:left">
+						<img style="padding:5px" src="<?php echo get_template_directory_uri(); ?>/images/product/p117.jpg" width="120" height="120" alt="DHC">
+						</div>
+						<div style="margin:5px;width:128px;height:130px;border: 1px solid #e7e7e7;box-shadow: 0 0 8px #dcdcdc;background-color:#ffffff;float:left">
+						<img style="padding:5px" src="<?php echo get_template_directory_uri(); ?>/images/product/p118.jpg" width="120" height="120" alt="DHC">
+						</div>
+
+					</div>
+					<p style="clear:left"></p>
+					<br>
 
 					<?php endif; ?>
 

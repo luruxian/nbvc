@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: May 17, 2015 at 07:33 AM
+-- Generation Time: May 17, 2015 at 08:25 AM
 -- Server version: 5.5.29
 -- PHP Version: 5.4.10
 
@@ -122,7 +122,7 @@ CREATE TABLE `nbvc_options` (
   `autoload` varchar(20) NOT NULL DEFAULT 'yes',
   PRIMARY KEY (`option_id`),
   UNIQUE KEY `option_name` (`option_name`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=365 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=368 ;
 
 --
 -- Dumping data for table `nbvc_options`
@@ -292,12 +292,10 @@ INSERT INTO `nbvc_options` (`option_id`, `option_name`, `option_value`, `autoloa
 (349, '_site_transient_update_core', 'O:8:"stdClass":4:{s:7:"updates";a:1:{i:0;O:8:"stdClass":10:{s:8:"response";s:6:"latest";s:8:"download";s:59:"https://downloads.wordpress.org/release/wordpress-4.2.2.zip";s:6:"locale";s:5:"zh_CN";s:8:"packages";O:8:"stdClass":5:{s:4:"full";s:59:"https://downloads.wordpress.org/release/wordpress-4.2.2.zip";s:10:"no_content";s:70:"https://downloads.wordpress.org/release/wordpress-4.2.2-no-content.zip";s:11:"new_bundled";s:71:"https://downloads.wordpress.org/release/wordpress-4.2.2-new-bundled.zip";s:7:"partial";b:0;s:8:"rollback";b:0;}s:7:"current";s:5:"4.2.2";s:7:"version";s:5:"4.2.2";s:11:"php_version";s:5:"5.2.4";s:13:"mysql_version";s:3:"5.0";s:11:"new_bundled";s:3:"4.1";s:15:"partial_version";s:0:"";}}s:12:"last_checked";i:1431825889;s:15:"version_checked";s:5:"4.2.2";s:12:"translations";a:1:{i:0;a:7:{s:4:"type";s:4:"core";s:4:"slug";s:7:"default";s:8:"language";s:2:"ja";s:7:"version";s:5:"4.2.2";s:7:"updated";s:19:"2015-05-15 08:57:03";s:7:"package";s:61:"https://downloads.wordpress.org/translation/core/4.2.2/ja.zip";s:10:"autoupdate";b:1;}}}', 'yes'),
 (350, '_site_transient_update_themes', 'O:8:"stdClass":4:{s:12:"last_checked";i:1431839840;s:7:"checked";a:1:{s:18:"fsv002wp-basic-c01";s:3:"1.0";}s:8:"response";a:0:{}s:12:"translations";a:0:{}}', 'yes'),
 (351, '_site_transient_update_plugins', 'O:8:"stdClass":4:{s:12:"last_checked";i:1431825891;s:8:"response";a:2:{s:19:"akismet/akismet.php";O:8:"stdClass":6:{s:2:"id";s:2:"15";s:4:"slug";s:7:"akismet";s:6:"plugin";s:19:"akismet/akismet.php";s:11:"new_version";s:5:"3.1.1";s:3:"url";s:38:"https://wordpress.org/plugins/akismet/";s:7:"package";s:56:"https://downloads.wordpress.org/plugin/akismet.3.1.1.zip";}s:41:"wp-multibyte-patch/wp-multibyte-patch.php";O:8:"stdClass":6:{s:2:"id";s:5:"24017";s:4:"slug";s:18:"wp-multibyte-patch";s:6:"plugin";s:41:"wp-multibyte-patch/wp-multibyte-patch.php";s:11:"new_version";s:5:"2.3.1";s:3:"url";s:49:"https://wordpress.org/plugins/wp-multibyte-patch/";s:7:"package";s:67:"https://downloads.wordpress.org/plugin/wp-multibyte-patch.2.3.1.zip";}}s:12:"translations";a:0:{}s:9:"no_update";a:4:{s:59:"black-studio-tinymce-widget/black-studio-tinymce-widget.php";O:8:"stdClass":7:{s:2:"id";s:5:"27008";s:4:"slug";s:27:"black-studio-tinymce-widget";s:6:"plugin";s:59:"black-studio-tinymce-widget/black-studio-tinymce-widget.php";s:11:"new_version";s:5:"2.2.4";s:3:"url";s:58:"https://wordpress.org/plugins/black-studio-tinymce-widget/";s:7:"package";s:76:"https://downloads.wordpress.org/plugin/black-studio-tinymce-widget.2.2.4.zip";s:14:"upgrade_notice";s:124:"Version 2.x is a major update. If you are upgrading from version 1.x please ensure to backup your database before upgrading.";}s:9:"hello.php";O:8:"stdClass":6:{s:2:"id";s:4:"3564";s:4:"slug";s:11:"hello-dolly";s:6:"plugin";s:9:"hello.php";s:11:"new_version";s:3:"1.6";s:3:"url";s:42:"https://wordpress.org/plugins/hello-dolly/";s:7:"package";s:58:"https://downloads.wordpress.org/plugin/hello-dolly.1.6.zip";}s:39:"siteorigin-panels/siteorigin-panels.php";O:8:"stdClass":6:{s:2:"id";s:5:"40030";s:4:"slug";s:17:"siteorigin-panels";s:6:"plugin";s:39:"siteorigin-panels/siteorigin-panels.php";s:11:"new_version";s:5:"2.1.2";s:3:"url";s:48:"https://wordpress.org/plugins/siteorigin-panels/";s:7:"package";s:66:"https://downloads.wordpress.org/plugin/siteorigin-panels.2.1.2.zip";}s:39:"so-widgets-bundle/so-widgets-bundle.php";O:8:"stdClass":6:{s:2:"id";s:5:"50709";s:4:"slug";s:17:"so-widgets-bundle";s:6:"plugin";s:39:"so-widgets-bundle/so-widgets-bundle.php";s:11:"new_version";s:5:"1.2.4";s:3:"url";s:48:"https://wordpress.org/plugins/so-widgets-bundle/";s:7:"package";s:66:"https://downloads.wordpress.org/plugin/so-widgets-bundle.1.2.4.zip";}}}', 'yes'),
-(352, '_site_transient_timeout_theme_roots', '1431841639', 'yes'),
-(353, '_site_transient_theme_roots', 'a:1:{s:18:"fsv002wp-basic-c01";s:7:"/themes";}', 'yes'),
-(354, 'widget_sow-button', 'a:2:{i:1;a:0:{}s:12:"_multiwidget";i:1;}', 'yes');
-INSERT INTO `nbvc_options` (`option_id`, `option_name`, `option_value`, `autoload`) VALUES
+(354, 'widget_sow-button', 'a:2:{i:1;a:0:{}s:12:"_multiwidget";i:1;}', 'yes'),
 (355, 'widget_sow-cta', 'a:2:{i:1;a:0:{}s:12:"_multiwidget";i:1;}', 'yes'),
-(356, 'widget_sow-features', 'a:2:{i:1;a:0:{}s:12:"_multiwidget";i:1;}', 'yes'),
+(356, 'widget_sow-features', 'a:2:{i:1;a:0:{}s:12:"_multiwidget";i:1;}', 'yes');
+INSERT INTO `nbvc_options` (`option_id`, `option_name`, `option_value`, `autoload`) VALUES
 (357, 'widget_sow-google-map', 'a:2:{i:1;a:0:{}s:12:"_multiwidget";i:1;}', 'yes'),
 (358, 'widget_sow-image', 'a:2:{i:1;a:0:{}s:12:"_multiwidget";i:1;}', 'yes'),
 (359, 'widget_sow-post-carousel', 'a:2:{i:1;a:0:{}s:12:"_multiwidget";i:1;}', 'yes'),
@@ -305,7 +303,10 @@ INSERT INTO `nbvc_options` (`option_id`, `option_name`, `option_value`, `autoloa
 (361, 'widget_black-studio-tinymce', 'a:2:{i:1;a:0:{}s:12:"_multiwidget";i:1;}', 'yes'),
 (362, 'widget_siteorigin-panels-builder', 'a:2:{i:1;a:0:{}s:12:"_multiwidget";i:1;}', 'yes'),
 (363, 'widget_siteorigin-panels-post-content', 'a:2:{i:1;a:0:{}s:12:"_multiwidget";i:1;}', 'yes'),
-(364, 'widget_siteorigin-panels-postloop', 'a:2:{i:1;a:0:{}s:12:"_multiwidget";i:1;}', 'yes');
+(364, 'widget_siteorigin-panels-postloop', 'a:2:{i:1;a:0:{}s:12:"_multiwidget";i:1;}', 'yes'),
+(365, '_site_transient_timeout_theme_roots', '1431845557', 'yes'),
+(366, '_site_transient_theme_roots', 'a:1:{s:18:"fsv002wp-basic-c01";s:7:"/themes";}', 'yes'),
+(367, 'fsv002wpbasic_c01_theme_options', 'a:2:{s:10:"slide1_pic";s:0:"";s:10:"slide2_pic";s:0:"";}', 'yes');
 
 -- --------------------------------------------------------
 

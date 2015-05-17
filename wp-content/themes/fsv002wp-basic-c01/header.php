@@ -62,11 +62,17 @@
 
 				if ( $opHeaderLogo ) : ?>
 
-				<h1 class="site-title-img"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" rel="home">dfdf<img src="<?php echo $opHeaderLogo; ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" /></a></h1>
+				<h1 class="site-title-img"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" rel="home"><img src="<?php echo $opHeaderLogo; ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" /></a></h1>
 
 				<?php else : ?>
 
-				<h1 class="site-title" ><a style="font-size:36px" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" rel="home"><font color="#1177ba"><?php echo esc_attr( get_bloginfo( 'name' ) ); ?></font></a></h1>
+				<h1 class="site-title" >
+					<div>
+							<a style="font-size:36px" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" rel="home">
+								<font color="#1177ba"><?php echo esc_attr( get_bloginfo( 'name' ) ); ?></font>
+							</a>
+				    </div>
+				</h1>
 
 				<?php endif; ?>
 
