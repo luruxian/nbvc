@@ -62,17 +62,15 @@
 
 				if ( $opHeaderLogo ) : ?>
 
-				<h1 class="site-title-img"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" rel="home"><img src="<?php echo $opHeaderLogo; ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" /></a></h1>
+				<h1 class="site-title-img"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" rel="home">dfdf<img src="<?php echo $opHeaderLogo; ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" /></a></h1>
 
 				<?php else : ?>
 
-				<h1 class="site-title">
-					<a style="font-size:32px;color:darkcyan;" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" rel="home"><?php echo esc_attr( get_bloginfo( 'name' ) ); ?></a>
-				</h1>
+				<h1 class="site-title" ><a style="font-size:36px" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" rel="home"><font color="#1177ba"><?php echo esc_attr( get_bloginfo( 'name' ) ); ?></font></a></h1>
 
 				<?php endif; ?>
 
-				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+<!-- 				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>-->
 
 			</div><!-- #header-title-area -->
 
@@ -81,14 +79,11 @@
 				if ( ( $opLinkMap ) || ( $opLinkCont ) ) : ?>
 
 					<p class="<?php echo $hw_linkclass; ?>">
-
-
-					<?php if ( $opLinkCont ) : ?><a href="mailto:hanlin_trading@hotmail.com"><span><?php _e( 'Contact', 'fsv002wpbasic' ); ?></span></a><?php endif; ?>
 					</p>
 				<?php endif;
 
-				if ( $opHeadText ) : ?><p class="hw_text"><?php echo "联络我们" ?></p><?php endif;
-				if ( $opHeadLargeText ) : ?><p class="hw_text_large"><?php echo "080-4292-1782"; ?></p><?php endif; ?>
+				if ( $opHeadText ) : ?><p class="hw_text"><?php echo "" ?></p><?php endif;
+				if ( $opHeadLargeText ) : ?><p class="hw_text_large"><?php echo ""; ?></p><?php endif; ?>
 
 			</div><!-- #header-widget-area -->
 

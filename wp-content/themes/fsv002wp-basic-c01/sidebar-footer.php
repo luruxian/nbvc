@@ -25,7 +25,7 @@
 					<table>
 						<tr>
 							<td style="text-align:right">咨询:</td>
-							<td style="padding-left:5px">info@nbvc.co</td>
+							<td style="padding-left:5px"><a href="mailto:info@nbvc.co">info@nbvc.co</a></td>
 						</tr>
 						<tr>
 							<td style="text-align:right">&nbsp;</td>
@@ -33,7 +33,15 @@
 						</tr>
 						<tr>
 							<td>商务合作:</td>
-							<td style="padding-left:5px">bd@nbvc.co</td>
+							<td style="padding-left:5px"><a href="mailto:bd@nbvc.co">bd@nbvc.co</a></td>
+						</tr>
+						<tr>
+							<td style="text-align:right">&nbsp;</td>
+							<td style="padding-left:5px">&nbsp;</td>
+						</tr>
+						<tr>
+							<td>加入星云:</td>
+							<td style="padding-left:5px"><a href="mailto:hr@nbvc.co">hr@nbvc.co</a></td>
 						</tr>
 					</table>	
 
@@ -51,8 +59,7 @@
 
 				<?php else : // is_active_sidebar( 'sidebar-4' ) ?>
 
-				
-					<h3 class="widget-title">  </h3>
+	
 					<div style="padding-left:50px">
 					<img src="<?php echo get_template_directory_uri(); ?>/images/a1.png" width="261" height="100" alt="Navigation Menu">
 					</div>
